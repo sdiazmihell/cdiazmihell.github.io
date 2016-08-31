@@ -1,0 +1,331 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,body{
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+nav #logo {
+  position: fixed;
+  font-size: 8rem;
+  color: black;
+  line-height: 10rem;
+  left: 15px;
+  top: 25px;
+}
+
+nav {
+  position: fixed;
+  height: 100vh;
+  width: 5rem;
+  font-size: 8rem;
+  padding-left: 80px;
+  line-height: 8rem;
+  background: red;
+  overflow: hidden;
+  transition: width 1s ease;
+  padding-top: 20px;
+}
+
+nav:hover, nav.pinned {
+  width: 40rem;
+  background-color: black;
+}
+
+nav a {
+  color: #EEE;
+  text-decoration: none;
+  display: table;
+  width: 10rem;
+}
+
+nav a:hover {
+  color: #00993b;
+  text-decoration: none;
+}
+
+nav a .fa {
+  width: 4rem;
+  display: table-cell;
+  font-size: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav a.label {
+  display: table-cell;
+}
+
+
+.clearit {
+  clear: both;
+}
+
+body {
+  background-color: none;
+  font-family: Helvetica;
+  -webkit-font-smoothing: antialiased;
+  overflow: scroll;
+}    
+
+a {
+  color: black;
+}
+
+
+body {
+  margin: 0px;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 3.5rem;
+  letter-spacing: 0.03em;
+}
+
+section#introSection {
+  background-color: blue;
+  padding: 20px;
+  padding-left: 160px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+section#selectedWorks {
+  background-color: white;
+  padding: 20px;
+  padding-left: 160px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  color: black;
+}
+
+section#contactSection {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 20px;
+  padding-left: 160px;
+  padding-right: 50px; 
+}
+
+a#email {
+  color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#backToTop {
+  display: block;
+  position: fixed;
+  width: 100px;
+  right: 20px;
+  bottom: 40px;
+  z-index: 1000;
+  font-size: 4rem;
+  line-height: 5.8rem;
+  transform: rotate(90deg);
+}   
+
+#backToTop:hover {
+  text-decoration: none;
+} 
+
+/*
+  #email {
+  color: black;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  height: 200px;
+  line-height: 200px;
+  position: fixed;
+  top: 50px;
+  right: -500px;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+}
+*/
+
+
+img#graphic {
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p span#works {
+  font-family: "Times New Roman";
+}
+
+p span#sporty {
+  font-family: "Times New Roman";
+  display: block;
+  width: 599px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+img#offtop {
+  display: block;
+  height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+img#newtonlaw {
+  display: block;
+  height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+img#sportygif {
+  display: block;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+p span#ceees {
+  font-family: "Times New Roman";
+  display: block;
+  width:617px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+img#teegif {
+  display: block;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+img#dyamiposter {
+  display: block;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+img#busad {
+  display: block;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p span#ngld {
+  font-family: "Times New Roman";
+  display:block;
+  width:640px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+p span#totespecs {
+  display:block;
+  width:610px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img#lenadunham {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+}
+
+.toteimages {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img#tote {
+  display: block;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p span#fyf {
+  font-family: "Times New Roman";
+  display: block;
+  margin-top: 50px;
+  width:530px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+img#fyfposter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  height: 600px;
+}
+
+img#fyfbusad {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+[class*='col-'] {
+  float: left;
+  margin-top: 20px;
+}
+
+.col-2-3 {
+  /* width: 66.66%; */
+  margin-right: 100px;
+}
+
+.col-1-3 {
+  /* width: 33.33%; */
+}
+
+.col-1-3 p:first-child {
+  margin-bottom: 20px;
+}
+
+.col-1-3 p:last-child {
+  margin-top: 20px;  
+}
+
+
+.clearit {
+  clear: both;
+}
+

@@ -1,0 +1,55 @@
+html,body {
+  height:100%;
+  background-color: black;
+}
+
+.title {
+  width: 1200px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 4rem;
+  letter-spacing: 0.03em;
+  text-align: center;
+  line-height: 1.28571em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img#cdmlogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  transform: translate(-50%, -50%);
+}
+
+/*
+a {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  border-style: solid;
+  border-width: 0px 0px 3.25px 0px;
+}
+
+a:active {
+    text-decoration: underline;
+}

@@ -196,6 +196,22 @@ img#offtop {
   padding-bottom: 50px;
 }
 
+p span#nglanding {
+  font-family: "Times New Roman";
+  display: block;
+  width: 672px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+img#nglp {
+  display: block;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
 img#newtonlaw {
   display: block;
   height: 850px;

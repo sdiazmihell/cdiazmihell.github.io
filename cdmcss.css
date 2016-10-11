@@ -23,19 +23,19 @@ nav #logo {
 
 nav {
   position: fixed;
-  height: 100vh;
+  height: 100%;
   width: 5rem;
-  font-size: 8rem;
+  font-size: 3.5rem;
   padding-left: 80px;
-  line-height: 8rem;
-  background: red;
+  line-height: 5rem;
+  background: #e2e2e2;
   overflow: hidden;
   transition: width 1s ease;
   padding-top: 20px;
 }
 
 nav:hover, nav.pinned {
-  width: 40rem;
+  width: 28rem;
   background-color: black;
 }
 
@@ -89,12 +89,11 @@ body {
 }
 
 section#introSection {
-  background-color: blue;
   padding: 20px;
   padding-left: 160px;
   padding-right: 50px;
   padding-bottom: 100px;
-  color: white;
+  color: black;
 }
 
 section#selectedWorks {
@@ -107,17 +106,17 @@ section#selectedWorks {
 }
 
 section#contactSection {
-  background-color: blue;
+  background-color: #e2e2e2;
   width: 100%;
   height: 100%;
-  color: white;
+  color: black;
   padding: 20px;
   padding-left: 160px;
   padding-right: 50px; 
 }
 
 a#email {
-  color: white;
+  color: black;
 }
 
 a:link {

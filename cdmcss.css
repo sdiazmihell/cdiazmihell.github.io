@@ -47,8 +47,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #00993b;
   text-decoration: none;
+  text-shadow: 2px 0px 9px rgba(255, 255, 255, .8);
 }
 
 nav a .fa {
@@ -204,6 +204,30 @@ p span#nglanding {
 img#nglp {
   display: block;
   width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+p span#posterseries {
+  font-family: "Times New Roman";
+  display: block;
+  width: 350px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+img#vsu {
+  display: block;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+img#offtop2 {
+  display: block;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 50px;

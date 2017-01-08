@@ -174,13 +174,11 @@ img#graphic {
 }
 
 p span#works {
-  font-family: "Times New Roman";
+
 }
 
 p span#sporty {
-  font-family: "Times New Roman";
   display: block;
-  width: 599px;
   height: 100%;
   margin: 0 auto;
 }
@@ -194,9 +192,7 @@ img#offtop {
 }
 
 p span#nglanding {
-  font-family: "Times New Roman";
   display: block;
-  width: 672px;
   height: 100%;
   margin: 0 auto;
 }
@@ -209,10 +205,22 @@ img#nglp {
   padding-bottom: 50px;
 }
 
-p span#posterseries {
-  font-family: "Times New Roman";
+p span#ngblog {
   display: block;
-  width: 350px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+img#ngblog {
+  display: block;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+p span#posterseries {
+  display: block;
   height: 100%;
   margin: 0 auto;
 }
@@ -233,6 +241,7 @@ img#offtop2 {
   padding-bottom: 50px;
 }
 
+
 img#newtonlaw {
   display: block;
   height: 850px;
@@ -250,9 +259,7 @@ img#sportygif {
 }
 
 p span#ceees {
-  font-family: "Times New Roman";
   display: block;
-  width:617px;
   height: 100%;
   margin: 0 auto;
 }
@@ -281,9 +288,7 @@ img#busad {
 }
 
 p span#ngld {
-  font-family: "Times New Roman";
   display:block;
-  width:640px;
   height: 100%;
   margin: 0 auto;
 }
@@ -316,10 +321,8 @@ img#tote {
 }
 
 p span#fyf {
-  font-family: "Times New Roman";
   display: block;
   margin-top: 50px;
-  width:530px;
   height: 100%;
   margin: 0 auto;
 }

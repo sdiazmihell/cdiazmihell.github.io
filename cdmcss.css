@@ -165,30 +165,40 @@ a:active {
 }
 */
 
+img#email {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+img#ww {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+img#blog {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
 
 img#graphic {
+  width: 60%;
   display: block;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
-p span#works {
-
-}
-
-p span#sporty {
+img#sportygif {
+  width: 90%;
   display: block;
-  height: 100%;
   margin: 0 auto;
 }
 
 img#offtop {
+  width: 90%;
   display: block;
-  height: 850px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
+  margin: 0 auto;
 }
 
 p span#nglanding {
@@ -198,11 +208,9 @@ p span#nglanding {
 }
 
 img#nglp {
+  width: 80%;
   display: block;
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
+  margin: 0 auto;
 }
 
 p span#ngblog {
@@ -225,34 +233,33 @@ p span#posterseries {
   margin: 0 auto;
 }
 
-img#vsu {
+img#ASP {
+  width: 60%;
   display: block;
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+img#vsu {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
 }
 
 img#offtop2 {
+  width: 60%;
   display: block;
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
+  margin: 0 auto;
 }
 
+img#dyamiposter {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
 
 img#newtonlaw {
   display: block;
   height: 850px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
-}
-
-img#sportygif {
-  display: block;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 50px;
@@ -265,14 +272,6 @@ p span#ceees {
 }
 
 img#teegif {
-  display: block;
-  height: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
-}
-
-img#dyamiposter {
   display: block;
   height: 700px;
   margin-left: auto;
@@ -301,10 +300,9 @@ p span#totespecs {
 }
 
 img#lenadunham {
+  width: 50%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 600px;
+  margin: 0 auto;
 }
 
 .toteimages {

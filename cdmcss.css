@@ -12,6 +12,19 @@ html,body{
   padding:0;
 }
 
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(./Fonts/HelveticaNeueLTStd-Lt.otf)
+}
+
+* {
+    font-family: "Helvetica Neue";
+}
+
+h1, h2, h3, h4 {
+    font-family: "Helvetica Neue";
+}
+
 nav #logo {
   position: fixed;
   font-size: 8rem;
@@ -70,7 +83,7 @@ nav a.label {
 
 body {
   background-color: none;
-  font-family: Helvetica;
+  font-family: Helvetica Neue;
   -webkit-font-smoothing: antialiased;
   overflow: scroll;
 }    
